@@ -17,7 +17,7 @@ To write a YACC program to recognize the grammar anb where n>=10.
 Name : E kamalesh
 Reg No : 212222100019
 ```
-Program: anb.l file
+## Program: anb.l file
 ```
 %{
 /* Definition section */
@@ -37,7 +37,7 @@ int yywrap()
     return 1;
 }
 ```
-Program:anb.y file
+## Program:anb.y file
 ```
 %{
 /* Definition section */
